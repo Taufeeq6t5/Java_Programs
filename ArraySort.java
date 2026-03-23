@@ -9,14 +9,11 @@ public class ArraySort {
         int n = sc.nextInt();
 
         int arr[] = new int[n];
-
-        // Input elements
+        
         for (int i = 0; i < n; i++) {
             System.out.print("Enter element " + (i + 1) + ": ");
             arr[i] = sc.nextInt();
         }
-
-        // Bubble Sort
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -26,13 +23,10 @@ public class ArraySort {
                 }
             }
         }
-
-        // Output sorted array
         System.out.println("Sorted Array:");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
-
         sc.close();
     }
 }
