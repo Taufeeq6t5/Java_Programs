@@ -16,7 +16,6 @@ public class PalindromeNumber {
             reverse = reverse * 10 + digit;
             num = num / 10;
         }
-
         if (original == reverse) {
             System.out.println("The number is a Palindrome");
         } else {
