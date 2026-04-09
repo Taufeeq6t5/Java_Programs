@@ -21,5 +21,31 @@ public class AreaOfShapes {
                 double circle = Math.PI * r * r;
                 System.out.println("Area of Circle = " + circle);
                 break;
+                           
+            case 2:
+                System.out.print("Enter length: ");
+                double l = sc.nextDouble();
+                System.out.print("Enter breadth: ");
+                double b = sc.nextDouble();
+                double rectangle = l * b;
+                System.out.println("Area of Rectangle = " + rectangle);
+                break;
+
+            case 3:
+                System.out.print("Enter base: ");
+                double base = sc.nextDouble();
+                System.out.print("Enter height: ");
+                double h = sc.nextDouble();
+                double triangle = 0.5 * base * h;
+                System.out.println("Area of Triangle = " + triangle);
+                break;
+
+            default:
+                System.out.println("Invalid choice");
+        }
+
+        sc.close();
+    }
+}
 
 
