@@ -21,7 +21,6 @@ public class LargestElement {
                 max = arr[i];
             }
         }
-
         System.out.println("Largest element = " + max);
         sc.close();
     }
