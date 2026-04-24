@@ -20,5 +20,4 @@ public class fibonacci_sequence{
        }
     sc.close();
     }
-
 }
