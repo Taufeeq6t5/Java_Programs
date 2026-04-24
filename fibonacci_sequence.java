@@ -18,6 +18,6 @@ public class fibonacci_sequence{
         first=second;
         second=next;
        }
-    sc.close();
+        sc.close();
     }
 }
