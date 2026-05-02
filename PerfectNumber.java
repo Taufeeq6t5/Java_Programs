@@ -15,7 +15,6 @@ public class PerfectNumber {
                 sum += i;
             }
         }
-
         if (sum == num) {
             System.out.println(num + " is a Perfect Number");
         } else {
