@@ -19,7 +19,6 @@ public class EvenOddCount {
         }
         System.out.println("Even = " + even);
         System.out.println("Odd = " + odd);
-
         sc.close();
     }
 }
