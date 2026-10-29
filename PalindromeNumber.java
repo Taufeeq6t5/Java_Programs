@@ -13,7 +13,7 @@ public class PalindromeNumber {
         
         while (num != 0) {
             int digit = num % 10;
-            reverse = reverse * 10 + digit;
+            reverse = reverse * 10 + digit ;
             num = num / 10;
         }
         if (original == reverse) {
