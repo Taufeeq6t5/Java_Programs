@@ -23,6 +23,6 @@ public class LargestOfThree {
         else {
             System.out.println("Largest number is: " + c);
         }
-        sc.close();
+        sc.close()
     }
 }
